@@ -52,7 +52,6 @@ export default function Header() {
           <button onClick={() => handleNavTarget('about')} className={`nav-btn ${active === 'about' ? 'active' : ''}`}>About</button>
           <button onClick={() => handleNavTarget('contact')} className={`nav-btn ${active === 'contact' ? 'active' : ''}`}>Contact</button>
         </nav>
-
         <a className="inline-block sm:hidden nav-btn cta-btn mr-3" href="/resume.pdf" download>
           Resume
         </a>
