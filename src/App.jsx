@@ -6,10 +6,12 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import ScrollProgress from './components/ScrollProgress'
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-black font-sans">
+      <ScrollProgress />
       <Header />
       <main className="flex-1">
         <Routes>
