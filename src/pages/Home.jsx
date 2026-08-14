@@ -7,7 +7,7 @@ import About from './About'
 import Contact from './Contact'
 
 export default function Home() {
-  const featured = projects.slice(0, 6)
+  const featured = projects
   const location = useLocation()
 
   useEffect(() => {

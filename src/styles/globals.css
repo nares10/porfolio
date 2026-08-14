@@ -69,7 +69,7 @@ a:hover { text-decoration: underline }
 .nav-btn {
   display: inline-block;
   padding: 6px 10px;
-  border-radius: 8px;
+  border-radius: 12px;
   color: #000;
   background: transparent;
   --motion-medium: 420ms;
@@ -161,3 +161,26 @@ a:hover { text-decoration: underline }
 @media (min-width: 1024px) {
   h1 { font-size: 3rem }
 }
+
+
+/* Buttons with a left icon while keeping the label centered */
+.icon-btn {
+  position: relative;
+  padding-left: 48px; /* space for the left icon */
+}
+.icon-btn .icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-btn .icon svg {
+  width: 18px;
+  height: 18px;
+}
+
