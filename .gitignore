@@ -1,1 +1,40 @@
-p.md
+# Node
+node_modules/
+
+# Vite / build
+dist/
+.vite/
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Coverage / cache
+coverage/
+.cache/
+
+# Vercel
+.vercel/
+.vercel_build_output/
+
+# Misc
+*.tgz
+*.swp
+*.swo
+._*
+.vercel

@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <header className="border-b border-black/10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 flex items-center justify-between">
-        <Link to="/" className="nav-btn text-2xl font-medium tracking-wide uppercase">Your Name</Link>
+        <Link to="/" className="nav-btn text-2xl font-medium tracking-wide uppercase">Naresh Dewsi</Link>
 
         <nav className="hidden sm:flex items-center space-x-4 text-sm" aria-label="Primary">
           <button onClick={() => handleNavTarget('projects')} className={`nav-btn ${active === 'projects' ? 'active' : ''}`}>Projects</button>
