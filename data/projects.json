@@ -1,14 +1,14 @@
 [
-  {"id": "p1", "title": "Project One", "summary": "A minimal project demonstrating X.", "tags": ["React","Design"], "link": "#", "image": "/images/design.png"},
-  {"id": "p2", "title": "Project Two", "summary": "An accessible web app.", "tags": ["Accessibility","Frontend"], "link": "#", "image": "/images/design.png"},
-  {"id": "p3", "title": "Project Three", "summary": "A fast static site.", "tags": ["Performance"], "link": "#", "image": "/images/design.png"},
-  {"id": "p4", "title": "Project Four", "summary": "A design system example.", "tags": ["Design System"], "link": "#", "image": "/images/design.png"},
-  {"id": "p5", "title": "Project Five", "summary": "Interactive data viz.", "tags": ["D3","Visualization"], "link": "#", "image": "/images/design.png"},
-  {"id": "p6", "title": "Project Six", "summary": "Mobile-first UI.", "tags": ["Mobile"], "link": "#", "image": "/images/design.png"},
-  {"id": "p7", "title": "Project Seven", "summary": "E-commerce prototype.", "tags": ["E-commerce"], "link": "#", "image": "/images/design.png"},
-  {"id": "p8", "title": "Project Eight", "summary": "Tooling and automation.", "tags": ["Tooling"], "link": "#", "image": "/images/design.png"},
-  {"id": "p9", "title": "Project Nine", "summary": "Open-source library.", "tags": ["Library"], "link": "#", "image": "/images/design.png"},
-  {"id": "p10", "title": "Project Ten", "summary": "Prototype app.", "tags": ["Prototype"], "link": "#", "image": "/images/design.png"},
-  {"id": "p11", "title": "Project Eleven", "summary": "Experimental UI.", "tags": ["Experimental"], "link": "#", "image": "/images/design.png"},
-  {"id": "p12", "title": "Project Twelve", "summary": "Performance optimizations.", "tags": ["Perf"], "link": "#", "image": "/images/design.png"}
+  {"id":"p1","title":"Aman Gallery","summary":"A minimal portfolio gallery showcasing photography and small web experiments.","tags":["React","Design"],"link":"#","image":"/images/project-1.svg"},
+  {"id":"p2","title":"Docs Scout","summary":"Lightweight documentation site with fast search and print-friendly styles.","tags":["Docs","UX"],"link":"#","image":"/images/project-2.svg"},
+  {"id":"p3","title":"Pulse Dashboard","summary":"A performance-focused analytics dashboard with realtime charts.","tags":["D3","Perf"],"link":"#","image":"/images/project-3.svg"},
+  {"id":"p4","title":"Type Foundry","summary":"A micro-site demonstrating custom typographic scales and variable fonts.","tags":["Typography","Design"],"link":"#","image":"/images/project-4.svg"},
+  {"id":"p5","title":"Forms Lab","summary":"Accessible form patterns and validation UX experiments.","tags":["Accessibility","Forms"],"link":"#","image":"/images/project-5.svg"},
+  {"id":"p6","title":"Shopfront Proto","summary":"A minimal e‑commerce prototype focusing on checkout clarity.","tags":["E-commerce","UX"],"link":"#","image":"/images/project-6.svg"},
+  {"id":"p7","title":"Toolchain Kit","summary":"Developer tooling examples: bundling, linting, and deploy scripts.","tags":["Tooling","Build"],"link":"#","image":"/images/project-7.svg"},
+  {"id":"p8","title":"Mapstory","summary":"A storytelling map with layered geospatial visualizations.","tags":["Maps","Visualization"],"link":"#","image":"/images/project-8.svg"},
+  {"id":"p9","title":"Open Lib","summary":"A small open-source library with clear docs and tests.","tags":["Open Source","Library"],"link":"#","image":"/images/project-9.svg"},
+  {"id":"p10","title":"Prototype UI","summary":"Rapid prototype demonstrating new interaction patterns.","tags":["Prototype","Interactions"],"link":"#","image":"/images/project-10.svg"},
+  {"id":"p11","title":"Motion Tests","summary":"Subtle motion and transition experiments that respect reduced-motion.","tags":["Motion","Accessibility"],"link":"#","image":"/images/project-11.svg"},
+  {"id":"p12","title":"Perf Audit","summary":"Performance audit examples and optimizations for static sites.","tags":["Performance","Optimization"],"link":"#","image":"/images/project-12.svg"}
 ]

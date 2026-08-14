@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <section className="max-w-4xl mx-auto px-6 pb-16">
+      <section className="container max-w-6xl mx-auto px-4 sm:px-6 pb-16">
         <h2 className="text-2xl font-semibold mb-6">Selected Projects</h2>
         <ProjectsGrid projects={featured} />
       </section>

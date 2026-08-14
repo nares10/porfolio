@@ -4,7 +4,7 @@ import projects from '../../data/projects.json'
 
 export default function Projects() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16">
+    <section className="container max-w-7xl mx-auto px-4 sm:px-6 py-16">
       <h1 className="text-3xl font-bold mb-8">Projects</h1>
       <ProjectsGrid projects={projects} />
     </section>
