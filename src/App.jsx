@@ -22,6 +22,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </div>
   )
 }
