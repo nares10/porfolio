@@ -184,3 +184,26 @@ a:hover { text-decoration: underline }
   height: 18px;
 }
 
+/* Mobile dropdown item styles */
+.mobile-menu summary.nav-btn {
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+.mobile-menu .dropdown-item {
+  background: transparent;
+  color: inherit;
+  border: none;
+  text-align: left;
+}
+.mobile-menu .dropdown-item:hover,
+.mobile-menu .dropdown-item:focus {
+  background: #000;
+  color: #fff;
+  transform: none;
+}
+
+/* Ensure dropdown appears above other content and has breathing room */
+.mobile-menu > div {
+  padding-bottom: 8px;
+}
+

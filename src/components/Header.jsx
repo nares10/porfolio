@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <header className="border-b border-black/10">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex items-center justify-between">
         <Link to="/" className="nav-btn text-2xl font-medium tracking-wide uppercase">Naresh Dewsi</Link>
 
         <nav className="hidden sm:flex items-center space-x-4 text-sm" aria-label="Primary">
@@ -53,19 +53,18 @@ export default function Header() {
           <button onClick={() => handleNavTarget('contact')} className={`nav-btn ${active === 'contact' ? 'active' : ''}`}>Contact</button>
         </nav>
 
-        <a className="hidden sm:inline-block nav-btn cta-btn ml-4" href="/resume.pdf" download>
-          Download Resume
+        <a className="inline-block sm:hidden nav-btn cta-btn mr-3" href="/resume.pdf" download>
+          Resume
         </a>
 
         <div className="sm:hidden">
-          <details className="relative">
-            <summary className="list-none cursor-pointer text-sm">Menu</summary>
-            <div className="absolute right-0 mt-2 w-40 bg-white border border-black/10 rounded-md shadow-sm">
+          <details className="relative mobile-menu">
+            <summary className="list-none cursor-pointer text-sm nav-btn">Menu</summary>
+            <div className="absolute right-0 mt-2 w-44 bg-white border border-black/10 rounded-md shadow-sm z-50">
               <div className="flex flex-col p-2">
-                <button onClick={() => handleNavTarget('projects')} className="nav-btn block text-left">Projects</button>
-                <button onClick={() => handleNavTarget('about')} className="nav-btn block text-left">About</button>
-                <button onClick={() => handleNavTarget('contact')} className="nav-btn block text-left">Contact</button>
-                <a className="nav-btn cta-btn block text-left mt-2" href="/resume.pdf" download>Download Resume</a>
+                <button onClick={() => handleNavTarget('projects')} className="dropdown-item block text-left px-3 py-2 rounded">Projects</button>
+                <button onClick={() => handleNavTarget('about')} className="dropdown-item block text-left px-3 py-2 rounded">About</button>
+                <button onClick={() => handleNavTarget('contact')} className="dropdown-item block text-left px-3 py-2 rounded">Contact</button>
               </div>
             </div>
           </details>
