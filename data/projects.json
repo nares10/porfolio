@@ -1,0 +1,14 @@
+[
+  {"id": "p1", "title": "Project One", "summary": "A minimal project demonstrating X.", "tags": ["React","Design"], "link": "#", "image": "/images/design.png"},
+  {"id": "p2", "title": "Project Two", "summary": "An accessible web app.", "tags": ["Accessibility","Frontend"], "link": "#", "image": "/images/design.png"},
+  {"id": "p3", "title": "Project Three", "summary": "A fast static site.", "tags": ["Performance"], "link": "#", "image": "/images/design.png"},
+  {"id": "p4", "title": "Project Four", "summary": "A design system example.", "tags": ["Design System"], "link": "#", "image": "/images/design.png"},
+  {"id": "p5", "title": "Project Five", "summary": "Interactive data viz.", "tags": ["D3","Visualization"], "link": "#", "image": "/images/design.png"},
+  {"id": "p6", "title": "Project Six", "summary": "Mobile-first UI.", "tags": ["Mobile"], "link": "#", "image": "/images/design.png"},
+  {"id": "p7", "title": "Project Seven", "summary": "E-commerce prototype.", "tags": ["E-commerce"], "link": "#", "image": "/images/design.png"},
+  {"id": "p8", "title": "Project Eight", "summary": "Tooling and automation.", "tags": ["Tooling"], "link": "#", "image": "/images/design.png"},
+  {"id": "p9", "title": "Project Nine", "summary": "Open-source library.", "tags": ["Library"], "link": "#", "image": "/images/design.png"},
+  {"id": "p10", "title": "Project Ten", "summary": "Prototype app.", "tags": ["Prototype"], "link": "#", "image": "/images/design.png"},
+  {"id": "p11", "title": "Project Eleven", "summary": "Experimental UI.", "tags": ["Experimental"], "link": "#", "image": "/images/design.png"},
+  {"id": "p12", "title": "Project Twelve", "summary": "Performance optimizations.", "tags": ["Perf"], "link": "#", "image": "/images/design.png"}
+]
